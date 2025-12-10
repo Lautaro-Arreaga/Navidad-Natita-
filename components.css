@@ -1,0 +1,20 @@
+/* --- components.css (Estilos de Componentes y Módulos) --- */
+
+/* Estilos de la Playlist/Música */
+#cover-playlist {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #D8BFD8; /* Borde Lila Claro */
+}
+.list-group-item:hover {
+    /* Lila Claro al pasar el ratón */
+    background-color: #D8BFD8; 
+    cursor: pointer;
+}
+.current-song {
+    /* Morado Suave para la canción activa */
+    background-color: #A48FD8 !important; 
+    color: white;
+    font-weight: bold;
+}
