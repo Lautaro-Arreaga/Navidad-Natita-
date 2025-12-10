@@ -1,0 +1,47 @@
+<div class="mt-5" id="home">
+    <header class="jumbotron animate__animated animate__fadeInDown">
+        <h1 class="display-4">Noticias de Natita: Edición Especial de Cumpleaños</h1>
+        <p class="lead">Un resumen exclusivo de la persona más especial del universo. ¡Feliz cumpleaños, mi vida!</p>
+        <hr class="my-4">
+        <p>Explora las diferentes secciones usando la barra de navegación de arriba.</p>
+    </header>
+
+    <div class="card p-4 text-center mb-5 animate__animated animate__zoomIn">
+        <h3>🎉 ¡Tiempo transcurrido desde que llegaste a mi vida! 🎉</h3>
+        <h1 id="tiempo-juntos" class="display-3 text-danger">Calculando...</h1>
+        <p class="text-muted">¡Cada segundo es una bendición!</p>
+    </div>
+
+    <div class="card p-4 text-center mb-5 animate__animated animate__fadeIn">
+        <h3 class="card-title">✨ Una Frase Inspiradora Sobre Ti ✨</h3>
+        <p class="lead" id="cita-aleatoria">Haz clic en el botón para ver un mensaje lindo.</p>
+        <button class="btn btn-primary mt-3" onclick="mostrarCitaAleatoria()">
+            ¡Dame un Cumplido!
+        </button>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-6 mb-4 animate__animated animate__fadeInLeft">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Introducción: El Título</h5>
+                    <p class="card-text">Aquí va un texto romántico sobre por qué es importante para ti.</p>
+                    <div class="embed-responsive embed-responsive-16by9 mt-3">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4 animate__animated animate__fadeInRight">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Un Mensaje Especial (Subventana)</h5>
+                    <p class="card-text">Usa este botón para abrir una **"carta de cumpleaños"**.</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mensajeModal" onclick="lanzarConfeti()">
+                        Leer Carta Secreta
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,67 @@
+/* --- style.css --- */
+
+/* Estilos de la fuente y Parallax (Fondo) */
+body {
+    color: #4a4a4a;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth; 
+    /* Efecto Parallax: Reemplaza con una URL de imagen bonita */
+    background-image: url('URL_DE_TU_IMAGEN_PASTEL.jpg'); 
+    background-color: #fce4ec; /* Color de fallback (Rosa claro pastel) */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2, h3, .navbar-brand {
+    font-family: 'Dancing Script', cursive; /* Fuente cursiva para títulos */
+    font-weight: 700;
+}
+
+/* Colores de la Navegación y Elementos */
+.navbar {
+    background-color: #ff99cc; /* Rosa más fuerte para la barra */
+}
+.navbar a {
+    color: #fff; /* Texto blanco en el navbar */
+}
+.navbar a:hover {
+    color: #ffccdd;
+}
+
+/* Estilos de Contenedores y Tarjetas */
+.card, .jumbotron, .modal-content {
+    background-color: rgba(255, 240, 245, 0.95); /* Blanco rosado semi-transparente (Para ver el parallax) */
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.jumbotron {
+    background-color: rgba(255, 204, 221, 0.9); /* Un tono de rosa para el "periódico" */
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+    border-radius: .3rem;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #ff66b2; /* Botón rosa romántico */
+    border-color: #ff66b2;
+}
+.btn-primary:hover {
+    background-color: #ff3399;
+    border-color: #ff3399;
+}
+
+/* Carrusel y Footer */
+.text-shadow {
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5); /* Sombra para texto en carrusel */
+    background-color: rgba(255, 102, 178, 0.7); 
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+footer {
+    background-color: #ff99cc !important; /* Mismo color de la navbar */
+    color: #fff;
+    font-weight: 300;
+}
