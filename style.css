@@ -5,9 +5,10 @@ body {
     color: #4a4a4a;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth; 
-    /* Efecto Parallax: Reemplaza con una URL de imagen bonita */
+    
+    /* 💜 FONDO PRINCIPAL: Lavanda/Malva Muy Suave */
+    background-color: #E6E6FA; /* Color de fallback */
     background-image: url('URL_DE_TU_IMAGEN_PASTEL.jpg'); 
-    background-color: #fce4ec; /* Color de fallback (Rosa claro pastel) */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,29 +16,32 @@ body {
 }
 
 h1, h2, h3, .navbar-brand {
-    font-family: 'Dancing Script', cursive; /* Fuente cursiva para títulos */
+    font-family: 'Dancing Script', cursive;
     font-weight: 700;
 }
 
 /* Colores de la Navegación y Elementos */
 .navbar {
-    background-color: #ff99cc; /* Rosa más fuerte para la barra */
+    /* 💜 BARRA DE NAVEGACIÓN: Morado Malva Suave */
+    background-color: #C39CDA; 
 }
 .navbar a {
     color: #fff; /* Texto blanco en el navbar */
 }
 .navbar a:hover {
-    color: #ffccdd;
+    color: #F5F5FF; /* Blanco Lila al pasar el ratón */
 }
 
 /* Estilos de Contenedores y Tarjetas */
-.card, .jumbotron, .modal-content {
-    background-color: rgba(255, 240, 245, 0.95); /* Blanco rosado semi-transparente (Para ver el parallax) */
+.card, .modal-content {
+    /* 💜 FONDO DE TARJETAS: Blanco Lila Semi-Transparente */
+    background-color: rgba(245, 245, 255, 0.95);
     border: none;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 .jumbotron {
-    background-color: rgba(255, 204, 221, 0.9); /* Un tono de rosa para el "periódico" */
+    /* 💜 JUMBOTRON/CABECERA: Lila Claro Pastel */
+    background-color: rgba(216, 191, 216, 0.9); 
     padding: 4rem 2rem;
     margin-bottom: 2rem;
     border-radius: .3rem;
@@ -45,23 +49,45 @@ h1, h2, h3, .navbar-brand {
 
 /* Botones */
 .btn-primary {
-    background-color: #ff66b2; /* Botón rosa romántico */
-    border-color: #ff66b2;
+    /* 💜 BOTÓN PRIMARIO: Morado Amatista */
+    background-color: #9370DB; 
+    border-color: #9370DB;
 }
 .btn-primary:hover {
-    background-color: #ff3399;
-    border-color: #ff3399;
+    background-color: #7B68EE; /* Azul Violeta al pasar el ratón */
+    border-color: #7B68EE;
 }
 
 /* Carrusel y Footer */
 .text-shadow {
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.5); /* Sombra para texto en carrusel */
-    background-color: rgba(255, 102, 178, 0.7); 
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    /* 💜 FONDO DE CAPTION: Morado con Transparencia */
+    background-color: rgba(147, 112, 219, 0.7); 
     border-radius: 5px;
     padding: 5px 10px;
 }
 footer {
-    background-color: #ff99cc !important; /* Mismo color de la navbar */
+    /* 💜 FOOTER: Mismo color de la navbar */
+    background-color: #C39CDA !important;
     color: #fff;
     font-weight: 300;
+}
+
+/* ESTILOS DE MÚSICA */
+#cover-playlist {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #D8BFD8; /* Borde Lila Claro */
+}
+.list-group-item:hover {
+    /* 💜 HOVER EN LISTA: Lila Claro al pasar el ratón */
+    background-color: #D8BFD8; 
+    cursor: pointer;
+}
+.current-song {
+    /* 💜 CANCIÓN ACTIVA: Morado Suave */
+    background-color: #A48FD8 !important; 
+    color: white;
+    font-weight: bold;
 }
